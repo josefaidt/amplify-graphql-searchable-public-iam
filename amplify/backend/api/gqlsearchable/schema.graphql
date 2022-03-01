@@ -1,0 +1,15 @@
+type Todo
+  @model
+  @searchable
+  @auth(
+    rules: [
+      { allow: groups, groups: ["admin"] }
+      { allow: owner }
+      { allow: public, provider: iam }
+    ]
+  ) {
+  id: ID! @primaryKey
+  owner: ID
+  name: String!
+  description: String
+}

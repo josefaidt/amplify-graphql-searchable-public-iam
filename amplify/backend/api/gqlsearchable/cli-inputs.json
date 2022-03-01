@@ -1,0 +1,17 @@
+{
+  "version": 1,
+  "serviceConfiguration": {
+    "apiName": "gqlsearchable",
+    "serviceName": "AppSync",
+    "gqlSchemaPath": "/Users/josef/Documents/projects/aws-amplify/reproductions/gqlsearchable/amplify/backend/api/gqlsearchable/schema.graphql",
+    "defaultAuthType": {
+      "mode": "AMAZON_COGNITO_USER_POOLS",
+      "cognitoUserPoolId": "authgqlsearchable0179cf65"
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-gqlsearchable-dev-85414-authRole",
+      "UnauthRoleArn": "arn:aws:iam::814763596509:role/amplify-gqlsearchable-dev-85414-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::814763596509:role/amplify-gqlsearchable-dev-85414-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-gqlsearchable-dev-85414-deployment",
+      "UnauthRoleName": "amplify-gqlsearchable-dev-85414-unauthRole",
+      "StackName": "amplify-gqlsearchable-dev-85414",
+      "StackId": "arn:aws:cloudformation:us-east-1:814763596509:stack/amplify-gqlsearchable-dev-85414/77a7ada0-996f-11ec-b5e9-0eca9207c26b",
+      "AmplifyAppId": "dc6xra8nj8xjd"
+    },
+    "categories": {
+      "auth": {
+        "gqlsearchable0179cf65": {}
+      }
+    }
+  }
+}

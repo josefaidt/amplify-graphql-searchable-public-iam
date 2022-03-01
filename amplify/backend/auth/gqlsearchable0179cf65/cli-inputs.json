@@ -1,0 +1,71 @@
+{
+  "version": "1",
+  "cognitoConfig": {
+    "identityPoolName": "gqlsearchable0179cf65_identitypool_0179cf65",
+    "allowUnauthenticatedIdentities": true,
+    "resourceNameTruncated": "gqlsea0179cf65",
+    "userPoolName": "gqlsearchable0179cf65_userpool_0179cf65",
+    "autoVerifiedAttributes": [
+      "email"
+    ],
+    "mfaConfiguration": "OFF",
+    "mfaTypes": [
+      "SMS Text Message"
+    ],
+    "smsAuthenticationMessage": "Your authentication code is {####}",
+    "smsVerificationMessage": "Your verification code is {####}",
+    "emailVerificationSubject": "Your verification code",
+    "emailVerificationMessage": "Your verification code is {####}",
+    "defaultPasswordPolicy": false,
+    "passwordPolicyMinLength": 8,
+    "passwordPolicyCharacters": [],
+    "requiredAttributes": [
+      "email"
+    ],
+    "aliasAttributes": [],
+    "userpoolClientGenerateSecret": false,
+    "userpoolClientRefreshTokenValidity": 30,
+    "userpoolClientWriteAttributes": [
+      "email"
+    ],
+    "userpoolClientReadAttributes": [
+      "email"
+    ],
+    "userpoolClientLambdaRole": "gqlsea0179cf65_userpoolclient_lambda_role",
+    "userpoolClientSetAttributes": false,
+    "sharedId": "0179cf65",
+    "resourceName": "gqlsearchable0179cf65",
+    "authSelections": "identityPoolAndUserPool",
+    "useDefault": "manual",
+    "userPoolGroupList": [
+      "admins"
+    ],
+    "serviceName": "Cognito",
+    "usernameCaseSensitive": false,
+    "useEnabledMfas": true,
+    "authRoleArn": {
+      "Fn::GetAtt": [
+        "AuthRole",
+        "Arn"
+      ]
+    },
+    "unauthRoleArn": {
+      "Fn::GetAtt": [
+        "UnauthRole",
+        "Arn"
+      ]
+    },
+    "breakCircularDependency": true,
+    "dependsOn": [],
+    "thirdPartyAuth": false,
+    "userPoolGroups": false,
+    "adminQueries": false,
+    "triggers": {},
+    "hostedUI": false,
+    "authProviders": [],
+    "parentStack": {
+      "Ref": "AWS::StackId"
+    },
+    "permissions": []
+  }
+}
